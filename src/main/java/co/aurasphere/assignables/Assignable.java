@@ -73,7 +73,7 @@ public class Assignable implements Serializable {
 	 * @param <T>
 	 *            the {@link #object} type.
 	 * @param T
-	 *            the {@link #t} object class.
+	 *            the object class.
 	 * @return the {@link #object}
 	 */
 	@SuppressWarnings("unchecked")

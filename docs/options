@@ -1,0 +1,24 @@
+-classpath
+'E:/workspace/Eclipse/workspace Luna/assignables/target/classes;C:/Users/Donato/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.56/bcprov-jdk15on-1.56.jar;C:/Users/Donato/.m2/repository/ch/qos/logback/logback-core/1.0.13/logback-core-1.0.13.jar;C:/Users/Donato/.m2/repository/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.jar;C:/Users/Donato/.m2/repository/ch/qos/logback/logback-classic/1.0.13/logback-classic-1.0.13.jar'
+-encoding
+'Cp1252'
+-protected
+-sourcepath
+'E:/workspace/Eclipse/workspace Luna/assignables/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2017. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'E:/workspace/Eclipse/workspace Luna/assignables/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'Assignables 1.0.0 API'
+-linkoffline
+'http://docs.oracle.com/javase/7/docs/api' 'E:/workspace/Eclipse/workspace Luna/assignables/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'Assignables 1.0.0 API'
