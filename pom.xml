@@ -7,6 +7,11 @@
 	<name>Assignables</name>
 	<description>A simple lightweight Java library to assign variables.</description>
 
+	<properties>
+		<maven.compiler.source>1.5</maven.compiler.source>
+		<maven.compiler.target>1.5</maven.compiler.target>
+	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.slf4j</groupId>
