@@ -45,5 +45,13 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
-*.class
+
+# Eclipse Core
+.project
+.settings/
+
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+
+# Maven
 target/
