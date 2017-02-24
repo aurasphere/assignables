@@ -35,13 +35,13 @@ import co.aurasphere.assignables.Assignable;
  * 
  * @author Donato Rimenti
  */
-public class ApacheCamelAssignmentPolicy implements AssignmentPolicy {
+public class UndeterministicAssignmentPolicy implements AssignmentPolicy {
 
 	/**
 	 * The logger.
 	 */
 	private static final Logger logger = LoggerFactory
-			.getLogger(ApacheCamelAssignmentPolicy.class);
+			.getLogger(UndeterministicAssignmentPolicy.class);
 
 	/*
 	 * (non-Javadoc)
