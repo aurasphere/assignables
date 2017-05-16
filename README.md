@@ -1,7 +1,7 @@
 # Assignables
 A simple lightweight Java library to assign variables.
 
-##Sample usage:
+## Sample usage:
 
     Assignable a = new Assignable();
     Assignables.assign(5).into(a).parallelProcessing().timeout(5000).end().withAssignmentPolicy(new MD5AssignmentPolicy());
