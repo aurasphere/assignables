@@ -31,17 +31,17 @@ import org.slf4j.LoggerFactory;
 import co.aurasphere.assignables.Assignable;
 
 /**
- * {@link AssignmentPolicy} with indeterministic behavior.
+ * {@link AssignmentPolicy} with stochastic behavior.
  * 
  * @author Donato Rimenti
  */
-public class UndeterministicAssignmentPolicy implements AssignmentPolicy {
+public class StochasticAssignmentPolicy implements AssignmentPolicy {
 
 	/**
 	 * The logger.
 	 */
 	private static final Logger logger = LoggerFactory
-			.getLogger(UndeterministicAssignmentPolicy.class);
+			.getLogger(StochasticAssignmentPolicy.class);
 
 	/*
 	 * (non-Javadoc)
@@ -81,7 +81,7 @@ public class UndeterministicAssignmentPolicy implements AssignmentPolicy {
 	}
 
 	/**
-	 * Tryes to send the current request to the delegate Route.
+	 * Tries to send the current request to the delegate route.
 	 */
 	private void tryAssignmentRoute() {
 		delegateAssignmentInternal();
@@ -109,7 +109,7 @@ public class UndeterministicAssignmentPolicy implements AssignmentPolicy {
 	 */
 	@Override
 	public String toString() {
-		return "ApacheCamelAssignmentPolicy []";
+		return "StochasticAssignmentPolicy []";
 	}
 
 }

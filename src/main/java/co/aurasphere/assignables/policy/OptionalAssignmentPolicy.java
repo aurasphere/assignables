@@ -29,6 +29,9 @@ import org.slf4j.LoggerFactory;
 import co.aurasphere.assignables.Assignable;
 
 /**
+ * {@link AssignmentPolicy} which assigns a value into a variable only 
+ * if the value is not null.
+ * 
  * @author Donato Rimenti
  */
 public class OptionalAssignmentPolicy implements AssignmentPolicy {
